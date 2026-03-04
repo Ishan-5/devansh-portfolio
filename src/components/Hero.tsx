@@ -37,10 +37,10 @@ export default function Hero() {
                 <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </Link>
               <a
-                href="/resume.pdf"
+                href="/Resume_Ishan.pdf"
                 className="w-full sm:w-auto px-8 py-4 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl font-semibold transition-all flex items-center justify-center gap-2"
               >
-                Download Resume
+                Resume
                 <Download size={18} />
               </a>
             </div>
