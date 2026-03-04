@@ -111,9 +111,9 @@ const projects: Project[] = [
         'Refine trace width optimization'
       ],
       images: [
-        '/assets/projects/esp32-4layer/schematic.jpg',
-        '/assets/projects/esp32-4layer/layout.jpg',
-        '/assets/projects/esp32-4layer/3d-render.jpg'
+        '/assets/projects/esp32-4layer/Schematic_ESP32_ISHAN.jpg',
+        '/assets/projects/esp32-4layer/pcb.jpg',
+        '/assets/projects/esp32-4layer/3d.jpg'
       ]
     }
   },
@@ -158,9 +158,8 @@ const projects: Project[] = [
         'Migrate to ESP32 for dual-core processing'
       ],
       images: [
-        '/assets/projects/handrover/vision.jpg',
-        '/assets/projects/handrover/hardware.jpg',
-        '/assets/projects/handrover/testing.jpg'
+        '/assets/projects/handrover/bot.jpg',
+        '/assets/projects/handrover/Circuit_Diagram_AI_rover.jpg'
       ]
     }
   },
@@ -205,9 +204,7 @@ const projects: Project[] = [
         'Improve efficiency with toroidal transformer'
       ],
       images: [
-        '/assets/projects/inverter/schematic.jpg',
-        '/assets/projects/inverter/prototype.jpg',
-        '/assets/projects/inverter/oscilloscope.jpg'
+        '/assets/projects/inverter/inverter.jpg'
       ]
     }
   },
@@ -251,9 +248,7 @@ const projects: Project[] = [
         'Design a custom 3D-printed enclosure'
       ],
       images: [
-        '/assets/projects/power-supply/pcb.jpg',
-        '/assets/projects/power-supply/assembly.jpg',
-        '/assets/projects/power-supply/testing.jpg'
+        '/assets/projects/power-supply/5V DC Regulated Power Supply.jpg'
       ]
     }
   },
@@ -297,9 +292,8 @@ const projects: Project[] = [
         'Use ultrasonic sensors for better range'
       ],
       images: [
-        '/assets/projects/people-counter/sensors.jpg',
-        '/assets/projects/people-counter/display.jpg',
-        '/assets/projects/people-counter/installation.jpg'
+        '/assets/projects/people-counter/people 1.jpg',
+        '/assets/projects/people-counter/people 2.jpg'
       ]
     }
   },
@@ -343,9 +337,8 @@ const projects: Project[] = [
         'Implement a dual-dice version'
       ],
       images: [
-        '/assets/projects/dice/circuit.jpg',
-        '/assets/projects/dice/led-pattern.jpg',
-        '/assets/projects/dice/final-build.jpg'
+        '/assets/projects/dice/digital dice 1.jpg',
+        '/assets/projects/dice/dice back.jpg'
       ]
     }
   },
