@@ -163,6 +163,57 @@ const projects: Project[] = [
       ]
     }
   },
+ {
+  id: 'sms-spam-detector',
+  title: 'SMS Spam Detection Web App',
+  description: 'Machine learning web application that classifies SMS messages as spam or legitimate using TF-IDF vectorization and a Multinomial Naive Bayes classifier.',
+  tags: ['Machine Learning', 'NLP', 'Flask', 'Python'],
+  github: 'https://github.com/Ishan-5/sms-spam-detector',
+  placeholder: 'SMS Spam Detection Web App',
+  isDetailed: true,
+  details: {
+    summary: 'A natural language processing project that classifies SMS messages as spam or legitimate using TF-IDF vectorization and a Multinomial Naive Bayes classifier. The trained model is deployed in a Flask web application for real-time predictions, achieving 97% accuracy and 100% precision.',
+    objective: [
+      'Detect spam SMS messages using machine learning',
+      'Convert raw text into numerical features using TF-IDF',
+      'Train and compare multiple classification models',
+      'Deploy the trained model as an interactive web application'
+    ],
+    specifications: {
+      'Language': 'Python',
+      'ML Library': 'Scikit-Learn',
+      'Feature Extraction': 'TF-IDF Vectorization',
+      'Model': 'Multinomial Naive Bayes',
+      'Web Framework': 'Flask',
+      'Deployment': 'Render'
+    },
+    metrics: {
+      'Accuracy': '≈97%',
+      'Precision': '1.0',
+      'Evaluation': 'Confusion Matrix and Precision Score'
+    },
+    challenges: [
+      {
+        title: 'Text Preprocessing',
+        description: 'Cleaning and normalizing SMS messages by removing stopwords, punctuation, and applying tokenization to improve model performance.'
+      },
+      {
+        title: 'Model Selection',
+        description: 'Evaluated multiple classifiers including Naive Bayes, SVM, Random Forest, and Logistic Regression to select the best performing model.'
+      }
+    ],
+    tools: ['Python', 'Scikit-Learn', 'Flask', 'HTML', 'CSS', 'NumPy', 'Pandas'],
+    files: ['Model Training Notebook', 'Flask Application', 'Trained Model Files (.pkl)'],
+    future: [
+      'Improve accuracy using advanced NLP techniques',
+      'Add deep learning models such as LSTM or transformers',
+      'Develop a REST API for integration with other applications'
+    ],
+    images: [
+      '/assets/projects/sms-spam-detector/ui.jpg'
+    ]
+  }
+},
   {
     id: 'inverter',
     title: '12V DC to 220V AC Inverter',

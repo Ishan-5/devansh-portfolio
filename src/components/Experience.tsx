@@ -3,16 +3,28 @@ import { Briefcase } from 'lucide-react';
 
 const experiences = [
   {
+    role: 'Associate Head – Technical Hardware',
+    organization: 'Technical Sub Council (HBTU)',
+    period: 'Present',
+    description: 'Coordinating technical events and managing sub-council activities within the university.'
+  },
+  {
     role: 'Joint Secretary – Technical Hardware',
-    organization: 'AutoRob (HBTU)',
+    organization: 'AutoRob Club (HBTU)',
     period: 'Present',
     description: 'Leading hardware development initiatives and organizing technical workshops for the robotics club.'
   },
   {
-    role: 'Associate Head',
-    organization: 'Technical Sub Council (HBTU)',
+    role: 'Associate Head – Event Managment',
+    organization: 'AETE (Association of Electronics Engineer, HBTU)',
     period: 'Present',
-    description: 'Coordinating technical events and managing sub-council activities within the university.'
+    description: 'Coordinating with different peoples and planing and organizing a succesfull event related to Electronics Department within the university.'
+  },
+  {
+    role: 'Associate Head – PR and Publicity',
+    organization: 'NSS (HBTU)',
+    period: 'Present',
+    description: 'Serving as Associate Head of Publicity & PR, responsible for shaping and managing the public image of NSS HBTU across digital and on-ground platforms.'
   }
 ];
 
